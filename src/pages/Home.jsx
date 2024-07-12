@@ -2,7 +2,7 @@ import React from "react";
 import InfoRow from "../components/infoRow/InfoRow";
 import { homeAboutdata } from "../data/homePageData";
 import ServicesRow from "../components/serviceRow/ServicesRow";
-import ProgressRow from "../components/progressRow/ProgressRow";
+import ProgressRow from "../components/progressRow/ProgressRow ";
 
 function Home() {
   return (
@@ -18,8 +18,8 @@ function Home() {
         src={homeAboutdata.src}
         contentFirst
       />
-      {/* <ServicesRow />
-      <ProgressRow /> */}
+      <ServicesRow />
+      <ProgressRow />
     </div>
   );
 }
