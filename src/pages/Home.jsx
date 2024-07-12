@@ -18,8 +18,8 @@ function Home() {
         src={homeAboutdata.src}
         contentFirst
       />
-      <ServicesRow />
-      <ProgressRow />
+      {/* <ServicesRow />
+      <ProgressRow /> */}
     </div>
   );
 }
