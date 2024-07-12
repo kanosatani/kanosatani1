@@ -1,0 +1,12 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  padding: 24px;
+}
+
+.footerContainer p {
+  font-size: 1.1rem;
+  cursor: pointer;
+}

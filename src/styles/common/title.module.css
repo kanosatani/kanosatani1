@@ -1,0 +1,12 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.titleContainer p {
+  font-size: 1.1rem;
+}

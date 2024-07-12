@@ -1,0 +1,38 @@
+.infoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.descContainer {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.descContainer p {
+  font-size: 1.2rem;
+}
+
+.descContainer button {
+  padding: 8px;
+  width: 130px;
+  font-size: 1.1rem;
+  margin-top: 50px;
+  border: 2px solid black;
+  background-color: blueviolet;
+  border-radius: 25px;
+  cursor: pointer;
+}

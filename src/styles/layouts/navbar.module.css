@@ -1,0 +1,31 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  height: 70px;
+}
+
+.logo {
+  font-size: 2rem;
+  padding-left: 100px;
+  cursor: pointer;
+}
+
+.listContainer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-right: 100px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  padding: 32px;
+  font-size: 1.2rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
